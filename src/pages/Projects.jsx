@@ -10,34 +10,41 @@ const Projects = () => {
   // Sample projects data - replace with your actual projects
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, and payment integration.",
-      image: "/projects/ecommerce.jpg",
+      title: "Job Tracker Application",
+      description:
+        "A streamlined full-stack CRUD app to manage job applications, track statuses, and organize career progress.",
+      image:
+        "https://res.cloudinary.com/ditvn8zww/image/upload/v1756062276/job-tracker-image_a86b1q.png",
       fallbackImage: defaultProjectImage,
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      repoLink: "https://github.com/yourusername/ecommerce-platform",
-      deployedLink: "https://ecommerce-project.com",
-      youtubeLink: "https://youtube.com/watch?v=..."
+      tags: ["react", "node js", "mongoDB", "express js"],
+      repoLink: "https://github.com/devprashant9/mern-assignment",
+      deployedLink: "https://mern-assignment-ten.vercel.app/",
+      youtubeLink: "https://youtube.com/watch?v=...",
     },
     {
-      title: "AI Image Generator",
-      description: "An AI-powered image generation tool that creates unique artwork based on text descriptions using OpenAI's DALL-E API.",
-      image: "/projects/ai-image.jpg",
+      title: "Countries API Project",
+      description:
+        "A frontend project displaying country data via REST Countries API with search, filter, and details",
+      image:
+        "https://res.cloudinary.com/ditvn8zww/image/upload/v1756062276/countries-api-image_lwkklv.png",
       fallbackImage: defaultProjectImage,
-      tags: ["React", "OpenAI", "TailwindCSS", "Node.js"],
-      repoLink: "https://github.com/yourusername/ai-image-generator",
-      deployedLink: "https://ai-image-gen.com",
-      youtubeLink: "https://youtube.com/watch?v=..."
+      tags: ["webpack", "reactrouter", "tailwind", "hooks"],
+      repoLink: "https://github.com/devprashant9/country-api-project",
+      deployedLink: "https://country-api-project-black.vercel.app/",
+      youtubeLink: "https://youtube.com/watch?v=...",
     },
+
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/projects/task-app.jpg",
+      title: "Expense Tracker Application",
+      description:
+        "A web application for tracking personal expenses and managing budgets",
+      image:
+        "https://res.cloudinary.com/ditvn8zww/image/upload/v1756062277/expense-tracker-image_vnc8pe.png",
       fallbackImage: defaultProjectImage,
-      tags: ["React", "Firebase", "Material-UI", "Redux"],
-      repoLink: "https://github.com/yourusername/task-manager",
-      deployedLink: "https://task-manager-pro.com",
-      youtubeLink: "https://youtube.com/watch?v=..."
+      tags: ["React", "Node.js", "Parcel", "LocalStorage"],
+      repoLink: "https://github.com/devprashant9/expense-tracker-project",
+      deployedLink: "https://expense-tracker-project-silk.vercel.app/",
+      youtubeLink: "https://youtube.com/watch?v=...",
     },
     // Add more projects as needed
   ];
