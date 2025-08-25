@@ -10,7 +10,7 @@ const Projects = () => {
   // Sample projects data - replace with your actual projects
   const projects = [
     {
-      title: "E-Commerce App With Paypal Integration",
+      title: "E-Commerce & Paypal Integration",
       description:
         "A full stack e-commerce application with Paypal integration and modular UI admin dashboard",
       image:
