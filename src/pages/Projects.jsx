@@ -10,6 +10,18 @@ const Projects = () => {
   // Sample projects data - replace with your actual projects
   const projects = [
     {
+      title: "E-Commerce App With Paypal Integration",
+      description:
+        "A full stack e-commerce application with Paypal integration and modular UI admin dashboard",
+      image:
+        "https://res.cloudinary.com/ditvn8zww/image/upload/v1756151437/ecommerce-with-paypal_a0hyk1.png",
+      fallbackImage: defaultProjectImage,
+      tags: ["react", "node js", "mongoDB", "express js"],
+      repoLink: "https://github.com/devprashant9/e-commerce-project",
+      deployedLink: "https://e-commerce-project-red-iota.vercel.app/",
+      youtubeLink: "https://youtube.com/watch?v=...",
+    },
+    {
       title: "Job Tracker Application",
       description:
         "A streamlined full-stack CRUD app to manage job applications, track statuses, and organize career progress.",
